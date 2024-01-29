@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.btn-card {
+  margin-right: 10px;
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #dfe2e5;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.li-container {
+  list-style-type: none;
+}
+
+.spl-btn {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-card {
+    font-size: 16px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 8px;
+  }
+}

@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.img-style {
+  height: 70px;
+  width: 70px;
+}
+
+.list-card {
+  background-color: #ffffff;
+  width: 45%;
+  max-width: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-card {
+    max-width: 198px;
+    padding-top: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .img-style {
+    width: 102px;
+    height: 102px;
+  }
+}
+
+.app-name {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-family: 'Bree Serif';
+    font-size: 24px;
+  }
+}
